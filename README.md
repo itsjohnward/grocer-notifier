@@ -1,6 +1,6 @@
 # grocer-notifier
 
-This app is an example project using the Grocer package.
+This app is an example project using the [Grocer](https://github.com/itsjohnward/grocer) package.
 
 It simply polls your grocer of choice and sends a text message to the number you provide if delivery times are available.
 
