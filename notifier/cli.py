@@ -17,8 +17,6 @@ def main():
     parser.add_argument("-p", "--password", action="store", type=str)
     args = parser.parse_args()
 
-    print(args.phone)
-    print(len(str(args.phone)))
     if len(str(args.phone)) != 11:
         raise ValueError(
             "Please enter a valid 11-digit phone number, including country code. i.e. 12223334444"
