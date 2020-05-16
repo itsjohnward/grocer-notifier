@@ -19,7 +19,7 @@ setuptools.setup(
     python_requires=">=3.6",
     install_requires=[
         "twilio",
-        "grocer @ git+https://git@github.com/itsjohnward/grocer@v0.2.0#egg=grocer",
+        "grocer @ git+https://git@github.com/itsjohnward/grocer@v0.2.1#egg=grocer",
     ],
     # root must be current directory
     # otherwise, use_scm_version = {"root": path, "relative_to": __file__}
